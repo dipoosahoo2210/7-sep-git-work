@@ -53,6 +53,12 @@ app.get('/home', (req, res) => {
    })
 })
 
+app.get('/project',(req , res)=>{
+    res.render('project.hbs' ,{
+        pagetitle:"projects"
+    })
+})
+
 
 app.get('/about', (req, res) => {
 
